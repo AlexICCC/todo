@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/list_fragment">
+
+    <fragment
+        android:id="@+id/list_fragment"
+        android:name="org.stalexman.todoapp.ui.list.NoteListFragment"
+        android:label="list_fragment"
+        tools:layout="@layout/fragment_note_list"/>
+
+    <fragment
+        android:id="@+id/note_fragment"
+        android:name="org.stalexman.todoapp.ui.note.NoteFragment"
+        android:label="note_fragment"
+        tools:layout="@layout/fragment_note" />
+
+</navigation>

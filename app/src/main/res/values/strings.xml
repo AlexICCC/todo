@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TodoApp</string>
+
+    <string name="fragment_note_list_title">NoteList</string>
+    <string name="fragment_note_title">Note</string>
+
+</resources>
